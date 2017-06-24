@@ -11,7 +11,9 @@
         "assets",
         "favicon.ico",
 		"app/szeretlek.mp3",
-		"app/idezetek.mp3"
+		"app/idezetek.mp3",
+		"app/Track3.mp3",
+		"app/versem.mp3"
       ],
       "index": "index.html",
       "main": "main.ts",
