@@ -13,7 +13,7 @@ export class BoxComponent implements OnInit, AfterViewChecked {
   protected _left = 0;
   protected _top = 0;
   public _listOfTekercs = [
-    {short: "Szeretlek", long: "Ez az, aminek látszik, csak annyit mondok szeretlek", sound: "./app/note/szeretlek.mp3"},
+    {short: "Szeretlek", long: "Ez az, aminek látszik, csak annyit mondok szeretlek", sound: "szeretlek.mp3"},
     {
       short: "A kedvenced",
       long: "Jól csak a szívével lát az ember, ami igazán fontos, az a szemnek láthatatlan.",
