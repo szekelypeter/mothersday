@@ -1,0 +1,6 @@
+<div class="tekercs-container">
+  <div *ngFor = "let darab of _listOfTekercs; let i = index;">
+    <div class="tekercs" [ngStyle]="palceCss(i)" (click)="showNote(i, $event)"><p>{{darab.short}}</p></div>
+  </div>
+</div>
+<app-note [noteHidden]="_noteHidden" [noteLong]="_noteLong" [audioPath]="_audioPath" (closeTekercs)="closeTekercs()"></app-note>

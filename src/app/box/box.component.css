@@ -1,0 +1,24 @@
+.tekercs-container{
+  width: 100%;
+  height: 80vh;
+  padding: 30px 0 50px 0;
+}
+.tekercs {
+  width: 40vw;
+  height: 7.6vw;
+  transition: 3s;
+  float: left;
+  position: absolute;
+  margin-left: 6vw;
+  margin-bottom: 30px;
+  background-image: url("./app/box/tekercs2.png");
+  background-size: 40vw 7.6vw;
+}
+
+p{
+  font-size: 1.7vw;
+  width: 18vw;
+  padding-left: 11vw;
+  padding-top: 0.9vw;
+  text-align: center;
+}

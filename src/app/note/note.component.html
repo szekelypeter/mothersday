@@ -1,0 +1,8 @@
+<div class="note-overlay" [hidden]="_noteHidden">
+  <div class="note-backdrop"></div>
+  <div class="note">
+    <div class="close" (click)="close()">Összehajt</div>
+    <p [innerHTML]="_noteLong"></p>
+    <div class="play" (click)="play()">Játszd le</div>
+  </div>
+</div>

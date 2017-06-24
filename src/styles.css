@@ -1,1 +1,5 @@
-/* You can add global styles to this file, and also import other style files */
+	@font-face { font-family: Egyedi; src: url('./app/akaDora.ttf'); } 
+body {
+	font-family: Egyedi;
+	background-image: url("./app/candlesbackground.jpg");
+}

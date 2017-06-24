@@ -1,0 +1,5 @@
+<div class="login-component">
+	<input #nameInput placeholder="Add meg a neved"><button (click)="sendName(nameInput.value)">Bejelentkezek</button>
+	<div *ngIf=wrong>Neked nincs jogod belépni!</div>
+</div>
+
