@@ -17,7 +17,7 @@ export class BoxComponent implements OnInit, AfterViewChecked {
     {
       short: "A kedvenced",
       long: "Jól csak a szívével lát az ember, ami igazán fontos, az a szemnek láthatatlan.",
-      sound: '../note/Track3.mp3'
+      sound: './src/app/Track3.mp3'
     },
     {short: "Idézetek", long: "Teljesen mindegy mennyi idős egy anya, középkorú gyermekeit figyelni fogja, hátha javulás tapasztalható.<br>- F. Scott-Maxwell <br><br>Néhányan megcsókolják az anyjukat, néhányan szidják,de a szeretet ugyanaz, és a legtöbb anya egyszerre szid és csókol.<br>- P. S Buck <br><br>Az öröklődés miatt támadnak kételyek egy tinédzser szüleiben.<br>- L. J Peter", sound: "./app/idezetek.mp3"},
     {short: "Vers anyának", long: "Átkarolom, megölelem<br>Egy ideje nagyobb lettem<br>Szeretgetem, megpuszilom<br>Arcom hajába fúrom<br><br>Veszekedünk neki esek<br>Ezért vagyunk idegesek<br>Kiabálunk, arcunk vörös<br>Lelkünk ekkor mindig dühös<br><br>Sportolunk vagy társasozunk<br>Az a lényeg együtt vagyunk<br>S ha nem is hagyjuk magunk<br>Ezért vagyunk akik vagyunk<br><br>Ott voltál a kezdetektől<br>Akkor mikor minden eldőlt<br>Nevelgettél, terelgettél<br>Mindent megtettél<br><br>Óriás kellett, óriás voltál<br>Harcos kellett, megharcoltál<br>Nem azt kaptam amit kértem<br>De azt ami kellet nem kétlem<br><br>S ha kell egy stabil pont<br>Hogy kifordítsam a világot<br>Te vagy az egyetlen biztos anya<br>Szeretlek és köszönöm amíg van ma", sound: "./versem.mp3"}
