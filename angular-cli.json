@@ -10,8 +10,8 @@
       "assets": [
         "assets",
         "favicon.ico",
-		"szeretlek.mp3",
-		"idezetek.mp3"
+		"app/szeretlek.mp3",
+		"app/idezetek.mp3"
       ],
       "index": "index.html",
       "main": "main.ts",
